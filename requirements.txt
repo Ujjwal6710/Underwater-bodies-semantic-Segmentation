@@ -1,0 +1,12 @@
+keras
+matplotlib
+numpy==1.23.0
+opencv_python
+requests
+streamlit
+numpy
+tensorflow
+pillow
+argparse
+logging
+pickle

@@ -66,13 +66,13 @@ $ python3 predict.py -i "Underwater_bodies_dataset/TEST/images/d_r_47_.jpg"
 ```
 ## Results
 ### 1. U-Net Testing Accuracy and Training Accuracy Graph for 100 epochs
-![U-Net](graphunet.jpg)
+![U-Net](Results/graphunet.jpg)
 
 ### 2. FCN-8 (Fully Convolutional Network) Testing Accuracy and Training Accuracy Graph for 75 epochs
-![FCN](graphfcn.jpg)
+![FCN](Results/graphfcn.jpg)
 
 ### 3. DeepLabV3 Testing Accuracy and Training Accuracy Graph for 150 epochs
-![DeepLab](graphdeeplab.jpg)
+![DeepLab](Results/graphdeeplab.jpg)
 
 ## How to use gpu 
 ```

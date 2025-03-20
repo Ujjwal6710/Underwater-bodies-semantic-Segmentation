@@ -83,6 +83,15 @@ To check the installation of tensorflow cuda run the following command
 $ python3 check_gpu.py
 ```
 
+## How to run streamlit app 
+```
+$ python3 app/segmenter.py
+```
+After the server the backend starts 
+```
+$ streamlit run app/frontend.py
+```
+
 
 ## Tools
 - Python

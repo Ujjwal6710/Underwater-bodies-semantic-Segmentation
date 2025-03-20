@@ -8,7 +8,7 @@ from PIL import Image
 app = Flask(__name__)
 
 IMAGE_SIZE = 256
-MODEL_PATH = "saved_models/deeplab.pkl"
+MODEL_PATH = "saved_models/unet.pkl"
 RESULT_DIR = "result_images"
 os.makedirs(RESULT_DIR, exist_ok=True)
 
@@ -22,8 +22,6 @@ def load_image(img_path):
     image = tf.cast(image, tf.float32)
     image = image / 255.
     return tf.expand_dims(image, axis=0)
-
-
 
 @app.route("/store", methods=["POST"])
 def create_item():

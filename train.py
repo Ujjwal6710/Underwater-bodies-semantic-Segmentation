@@ -101,14 +101,3 @@ if __name__ == "__main__":
     plt.savefig(f"graph{args.model}.jpg")
     plt.show()
 
-
-# SUIM dataset
-
-# SUIM dataset SUIM dataset
-# Paper： Semantic Segmentation of Underwater Imagery: Dataset and Benchmark
-# Homepage：Homepage
-# Dataset introduction: This dataset is an underwater segmentation dataset, which contains already marked segmentation tags. For a detailed introduction of the dataset, please see the detailed introduction on the Homepage.
-
-#Command to run
-# python3 train.py --model unet --epochs 2 --data_path "train_val" --test_data_path "TEST"
-

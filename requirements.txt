@@ -10,3 +10,4 @@ pillow
 argparse
 logging
 pickle
+setuptools>=58
